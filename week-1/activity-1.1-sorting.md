@@ -11,7 +11,7 @@ Your program must define and call the following method:  ```public static void s
 ## Example output
 39,12,10,4,2
 
-## Answer
+## Code
 ```java
 public class Main {
     public static void sortArray(int[] myArr, int arrSize) {
@@ -74,3 +74,7 @@ public class Main {
     }
 }
 ```
+
+## Flowchart Explaination
+![image](https://github.com/user-attachments/assets/b47152a1-642e-4a98-b49d-8b8d20c294c1)
+
