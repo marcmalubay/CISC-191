@@ -12,7 +12,7 @@ Your program must define and call the following method:  ```public static void s
 39,12,10,4,2
 
 ## Answer
-```
+```(java)
 public class Main {
     public static void sortArray(int[] myArr, int arrSize) {
         boolean swap;
