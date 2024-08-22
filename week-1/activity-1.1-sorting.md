@@ -40,12 +40,36 @@ public class Main {
     public static void main(String[] args) {
         int[] arr = {5,10,4,39,12,2};
         int arrSize = 6;
+        
+        System.out.print("This is my original array: ");
+        for (int i = 0; i <= arrSize - 1; i++){
+            if (i == 0){
+                System.out.print("[" + arr[i] + ", ");
+                continue;
+            }
+            
+            if (i == arrSize - 1){
+                System.out.println(arr[i] + "]");
+                continue;
+            }
+            System.out.print(arr[i] + ", ");
+        }
+        
+        
         sortArray(arr, arrSize);
 
+        System.out.print("This is my sorted array: ");
         for (int i = 0; i <= arrSize - 1; i++){
-            System.out.print(arr[i] + " ");
-
-
+            if (i == 0){
+                System.out.print("[" + arr[i] + ", ");
+                continue;
+            }
+            
+            if (i == arrSize - 1){
+                System.out.println(arr[i] + "]");
+                continue;
+            }
+            System.out.print(arr[i] + ", ");
         }
     }
 }
