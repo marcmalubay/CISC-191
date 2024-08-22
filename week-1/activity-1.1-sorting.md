@@ -75,6 +75,9 @@ public class Main {
 }
 ```
 
+## Why I chose to use Bubble sort
+This problem specifies that the maximum length the array will be is 20. This means that although bubble sort is not the most time efficient algorithm, it will do the job for this problem since we do not really need to worry about time complexity.
+
 ## Flowchart Explaination
 ![image](https://github.com/user-attachments/assets/b47152a1-642e-4a98-b49d-8b8d20c294c1)
 
