@@ -57,6 +57,6 @@ If I were tasked to perform a frequency analysis on a website, I would input all
 ![Group 37](https://github.com/user-attachments/assets/48cd51f9-6aa0-42c5-a258-c12948745f97)
 
 ## Challenges
-Trying to find a better algorithm for this problem was a big challenge for me for this activity. I know that there is a better way to solve a problem such as this, and that is to use a hashmap. Hashmaps are dictionaries that allow for constant lookup of elements inside of a dictionary without having to loop through the entire set of data. Using a hashmap turn my solution, which is O(N^2) complexity to a faster complexity (I believe it is O(Nlog(N))). I am not sure how to implement this inside of Java, so I am unable to come up with the best solution to this problem.
+Trying to find a better algorithm for this problem was a big challenge for me for this activity. I know that there is a better way to solve a problem such as this, and that is to use a hashmap. Hashmaps are dictionaries that allow for constant lookup of elements inside of a dictionary without having to loop through the entire set of data. Using a hashmap turns my solution, which is O(N^2) complexity to a faster complexity (I believe it is O(Nlog(N))). I am not sure how to implement this inside of Java, so I am unable to come up with the best solution to this problem.
 
 ## Video Explanation
