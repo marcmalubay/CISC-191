@@ -3,9 +3,6 @@
 ## Objectives
 Count number of words
 
-## Pre-requisite
-Review of the week 1 Java contents
-
 ## Tasks
 Define a method named getWordFrequency that takes an array of strings, the size of the array, and a search word as parameters. 
 Method getWordFrequency() then returns the number of occurrences of the search word in the array parameter (case insensitive). 
@@ -24,3 +21,5 @@ Hi 2
 Mark 2   
 hi 2   
 mark 2   
+
+## Code 
