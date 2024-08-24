@@ -49,3 +49,8 @@ public class Main {
     }
 }
 ```
+## How I would perform a frequency analysis on a website
+If I were tasked to perform a frequency analysis on a website, I would input all of the values I want to look at in one single array. For the code I have written I am only able to compare strings, but as long as my array is full of only strings then I am able to display the frequency of the elements in my array accurately. Although this code specifically will not work, this method will work for multiple types of data as well. I would employ this strategy if I was tasked to analyze the frequency of a website.
+
+## Flowchart Explaination
+![Group 37](https://github.com/user-attachments/assets/87b7b8d6-a9a2-4c02-aa69-62490e313548)
