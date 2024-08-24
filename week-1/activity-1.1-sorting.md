@@ -76,8 +76,13 @@ public class Main {
 ```
 
 ## Why I chose to use Bubble sort
-This problem specifies that the maximum length the array will be is 20. This means that although bubble sort is not the most time efficient algorithm, it will do the job for this problem since we do not really need to worry about time complexity.
+This problem specifies that the maximum length the array will be is 20. This means that although bubble sort is not the most time efficient algorithm, it will do the job for this problem since we do not really need to worry about time complexity. I also chose to use this algorithm because I am most familiar with bubble sort compared to others.
 
 ## Flowchart Explaination
 ![image](https://github.com/user-attachments/assets/b47152a1-642e-4a98-b49d-8b8d20c294c1)
 
+# Challenges
+Figuring out which algorithm to use was a challenge for me. I know that bubble sort is not the fastest algorithm to use since it is of O(N^2) complexity. I am not very familiar with other algorithms, so I chose what I was most comfortable working with. Finding out a way to display the array with prints was quite diificult aswell. It has been a while since I have had to work with printing in Java so I came up with a way to print my output, but I am sure there is better ways to go about this.
+
+## Video Explaination
+https://sdccd.us-west-2.instructuremedia.com/embed/3b612455-622c-4194-a731-38ce6fa7f660
