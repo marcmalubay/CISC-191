@@ -28,10 +28,11 @@ public class Main {
     public static int getWordFrequency(String[] wordsList, int listSize, String currWord) {
         int frequency = 0;
 
+        String current_lower = currWord.toLowerCase();
         for (int i = 0; i <= listSize - 1; i++) {
             String lower = wordsList[i].toLowerCase();
 
-            if (currWord.toLowerCase().equals(lower)) {
+            if (current_lower.equals(lower)) {
                 frequency += 1;
             }
         }
