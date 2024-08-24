@@ -54,9 +54,13 @@ public class Main {
 If I were tasked to perform a frequency analysis on a website, I would input all of the values I want to look at in one single array. For the code I have written I am only able to compare strings, but as long as my array is full of only strings then I am able to display the frequency of the elements in my array accurately. Although this code specifically will not work, this method will work for multiple types of data as well. I would employ this strategy if I was tasked to analyze the frequency of a website.
 
 ## Flowchart Explanation
-![Group 37](https://github.com/user-attachments/assets/48cd51f9-6aa0-42c5-a258-c12948745f97)
+![image](https://github.com/user-attachments/assets/83b9398c-a2db-45d6-b173-c21134c218f2)
+
 
 ## Challenges
 Trying to find a better algorithm for this problem was a big challenge for me for this activity. I know that there is a better way to solve a problem such as this, and that is to use a hashmap. Hashmaps are dictionaries that allow for constant lookup of elements inside of a dictionary without having to loop through the entire set of data. Using a hashmap turns my solution, which is O(N^2) complexity to a faster complexity (I believe it is O(Nlog(N))). I am not sure how to implement this inside of Java, so I am unable to come up with the best solution to this problem.
 
 ## Video Explanation
+https://github.com/user-attachments/assets/ecdcfd08-305a-4537-8879-6870759c4d51
+
+
