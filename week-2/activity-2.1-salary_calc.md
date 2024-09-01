@@ -7,18 +7,20 @@ The program below uses a class, TaxTableTools, which has a tax table built in. T
 1. Modify the TaxTableTools class to use a setter method that accepts a new salary and tax rate table.   
 2. Modify the program to call the new method, and run the program again, noting the same output.   
 
+### Insert code inside of FIXME section for both templates
 ## Main IncomeTaxMain
 ```java
-table.setTables(salary, taxTable);
+    table.setTables(salary, taxTable);
 ```
 
 ## Class TaxTableTools
 ```java
-public void setTables(int[] salary, double[] table) {
-    search = salary;
-    value = table;
-}
+    public void setTables(int[] salary, double[] table) {
+        search = salary;
+        value = table;
+    }
 ```
+
 ## Task B (using constructor overload)
 The program below calculates a tax rate and tax to pay given an annual salary. The program uses a class, TaxTableTools, which has the tax table built in. Run the program with annual salaries of 10000, 50000, 50001, 100001 and -1 (to end the program) and note the output tax rate and tax to pay.
 
@@ -31,26 +33,29 @@ The program below calculates a tax rate and tax to pay given an annual salary. T
    - Modify the salary and tax tables in the main method to use different salary ranges and tax rates.
    - Use the just-created overloaded constructor to initialize the salary and tax tables.
    - Test the program with the annual salary values listed above.
+
+### Insert code inside of FIXME section for both templates
 ## Main IncomeTaxMain
 ```java
-TaxTableTools table = new TaxTableTools(salaryRange, taxRates);
+    TaxTableTools table = new TaxTableTools(salaryRange, taxRates);
 ```
 
 ## Class TaxTableTools
 ```java
-public TaxTableTools(int[] s, double[] t) {
-    search = s;
-    value = t;
-    nEntries = search.length;
-}
+    public TaxTableTools(int[] s, double[] t) {
+        search = s;
+        value = t;
+        nEntries = search.length;
+    }
 ```
 
 
 ## Flowchart Explanation
-![image](https://github.com/user-attachments/assets/126ee917-0a1e-4373-814a-a33ff41bd1f6)
+![image](https://github.com/user-attachments/assets/42b26695-567e-48a7-9187-9a3526f7c0c2)
+
 
 ## Challenges
-Figuring out which algorithm to use was a challenge for me. I know that bubble sort is not the fastest algorithm to use since it is of O(N^2) complexity. I am not very familiar with other algorithms, so I chose what I was most comfortable working with. Finding a way to display the array with prints was quite difficult as well. It has been a while since I have had to work with printing in Java so I came up with a way to print my output, but I am sure there is better ways to go about this.
+Understanding what the code was doing at first took a bit of time. But once I understood how the class uses the variables inside of it, I then realized the two ways I could change the values inside the variables in the class. This activity once you understand how to change variables inside of a class instantly becomes not as challenging.
 
 ## Video Explanation
 https://github.com/user-attachments/assets/76514995-e934-47e4-97f3-01bedfa9c723
