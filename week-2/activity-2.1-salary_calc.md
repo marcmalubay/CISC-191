@@ -47,7 +47,7 @@ public TaxTableTools(int[] s, double[] t) {
 
 
 ## Flowchart Explanation
-![image](https://github.com/user-attachments/assets/b47152a1-642e-4a98-b49d-8b8d20c294c1)
+![image](https://github.com/user-attachments/assets/126ee917-0a1e-4373-814a-a33ff41bd1f6)
 
 ## Challenges
 Figuring out which algorithm to use was a challenge for me. I know that bubble sort is not the fastest algorithm to use since it is of O(N^2) complexity. I am not very familiar with other algorithms, so I chose what I was most comfortable working with. Finding a way to display the array with prints was quite difficult as well. It has been a while since I have had to work with printing in Java so I came up with a way to print my output, but I am sure there is better ways to go about this.
