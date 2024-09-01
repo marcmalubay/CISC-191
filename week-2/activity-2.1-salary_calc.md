@@ -10,15 +10,15 @@ The program below uses a class, TaxTableTools, which has a tax table built in. T
 ### Insert code inside of FIXME section for both templates
 ## Main IncomeTaxMain
 ```java
-    table.setTables(salary, taxTable);
+table.setTables(salary, taxTable);
 ```
 
 ## Class TaxTableTools
 ```java
-    public void setTables(int[] salary, double[] table) {
-        search = salary;
-        value = table;
-    }
+public void setTables(int[] salary, double[] table) {
+    search = salary;
+    value = table;
+}
 ```
 
 ## Task B (using constructor overload)
@@ -37,15 +37,15 @@ The program below calculates a tax rate and tax to pay given an annual salary. T
 ### Insert code inside of FIXME section for both templates
 ## Main IncomeTaxMain
 ```java
-    TaxTableTools table = new TaxTableTools(salaryRange, taxRates);
+TaxTableTools table = new TaxTableTools(salaryRange, taxRates);
 ```
 
 ## Class TaxTableTools
 ```java
-    public TaxTableTools(int[] s, double[] t) {
-        search = s;
-        value = t;
-        nEntries = search.length;
+public TaxTableTools(int[] s, double[] t) {
+    search = s;
+    value = t;
+    nEntries = search.length;
     }
 ```
 
