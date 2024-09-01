@@ -58,4 +58,5 @@ The program below calculates a tax rate and tax to pay given an annual salary. T
 Understanding what the code was doing at first took a bit of time. But once I understood how the class uses the variables inside of it, I then realized the two ways I could change the values inside the variables in the class. This activity once you understand how to change variables inside of a class instantly becomes not as challenging.
 
 ## Video Explanation
-https://github.com/user-attachments/assets/76514995-e934-47e4-97f3-01bedfa9c723
+https://github.com/user-attachments/assets/b88224a1-2e0b-4dd5-bd69-0d06e7714ced
+
