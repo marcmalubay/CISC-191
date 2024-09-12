@@ -1,3 +1,17 @@
+## Objective
+Understand how memory management works in Java
+
+## Pre-requisite
+Review "Memory management"
+
+## Task A (using classes)
+Create your own class which performs a certain task. Use main() to create an object of the class. You can also use any past object and classes
+examples.
+
+## Expected output
+The code and the mapping of each variable and object into "Stack and Heap". Make sure to show how garbage collector works on the code.
+You can draw "Stack and Heap" on paper or on a computer. Your choice.
+ 
 ### Main
 ```java
 public class MyClass
@@ -52,3 +66,9 @@ public class NewClass{
 |2B|20|newInteger|
 |2C|||
 |2D|||
+
+### Flowchart Explaination
+![image](https://github.com/user-attachments/assets/e7c7cb76-b083-4b61-8c67-8ba522e4344a)
+
+### Challenges
+I am still not 100% in my knowledge of how memory works in Java, but this is a suitable explanation for storing variables and information. For my solution I chose to write very basic code that assigns numbers to variables, but the purpose was to illustrate how the data is stored in the stack and heap. This solution does not explain garbage collection however, which I do not believe it needs to since the code is short and will not store many variables.
