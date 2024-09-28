@@ -14,4 +14,18 @@ Assign courseStudent's name with Smith, age with 20, and ID with 9999. Use the p
 
 ## Solution
 ```java
+// ===== Code from file StudentDerivationFromPerson.java =====
+public class StudentDerivationFromPerson {
+   public static void main(String[] args) {
+       Person coursePerson = new Person();
+       Student courseStudent = new Student();
+
+       coursePerson.setName("Smith");
+       coursePerson.setAge(20);
+       coursePerson.printAll();
+       courseStudent.setID(9999);
+       System.out.println(", ID: " + courseStudent.getID());
+
+   }
+}
 ```
