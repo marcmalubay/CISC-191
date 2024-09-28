@@ -42,3 +42,86 @@ Course Information:
    Location: Wilson Hall 231
    Class Time: WF: 2-3:30 pm
 ```
+## Code
+
+## Course class
+```java
+public class Course {
+   protected String courseNumber;
+   protected String courseName;
+
+   public void setNumber(String n) {
+      courseNumber = n;
+   }
+
+   public void setName(String n) {
+      courseName = n;
+   }
+
+   public void printInfo() {
+      System.out.println("Course Information:");
+      System.out.println("  Course Number: "  + courseNumber);
+      System.out.println("  Course Name: "  + courseName);
+   }
+}
+```
+
+## OfferedCourse class
+```java
+public class OfferedCourse extends Course {
+    private String instructorName;
+    private String location;
+    private String time;
+
+   public void setNumber(String n) {
+      courseNumber = n;
+   }
+
+   public void setName(String n) {
+      courseName = n;
+   }
+
+    public void setInstructor(String n) {
+        instructorName = n;
+    }
+    
+    public void setLocation(String n) {
+        location = n;
+    }
+
+
+    public void setTime(String n) {
+        time = n;
+    }
+
+    public void printInfo() {
+        System.out.println("Course Information:");
+        System.out.println("    Course Number: "  + courseNumber);
+        System.out.println("    Course Name: "  + courseName);
+        System.out.println("    Course Instructor: "  + courseNumber);
+        System.out.println("    Course Location: "  + courseName);
+        System.out.println("    Course Time: "  + courseName);
+   }
+}
+```
+
+## Main class
+```java
+public class Main {
+   public static void main(String[] args) {
+       Course course = new Course();
+       OfferedCourse offeredCourse = new OfferedCourse();
+
+       course.setNumber("ECE287");
+       course.setName("Digital Systems Design");
+       course.printInfo();
+       offeredCourse.setNumber("ECE387");
+       offeredCourse.setName("Embedded Systems Design");
+       offeredCourse.setInstructor("Mark Patterson");
+       offeredCourse.setLocation("Wilson Hall 231");
+       offeredCourse.setTime("WF: 2-3:30 pm");
+       offeredCourse.printInfo();
+
+   }
+}
+```
