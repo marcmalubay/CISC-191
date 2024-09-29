@@ -117,6 +117,13 @@ public class Main {
    }
 }
 ```
+## Flowchart Explaination
+![image](https://github.com/user-attachments/assets/cb405e68-731a-4b02-84de-3fe049756b64)
+
+
+## Challenges
+Knowing the difference between protected and private was a challenge for me when completing this assignment. Usually if I want something to be accessed outside of something I would use public, but I do not believe that is most optimal when concerning subclasses. Protected should be used instead of private since protected will provide access to derived classes and classes in the same package but nothing else. This makes sure that our code is safe, but reachable through other subclasses.
+
 ## Video Explaination
 https://github.com/user-attachments/assets/8da276f8-aaf5-4e98-b3f0-b882778e7db9
 
