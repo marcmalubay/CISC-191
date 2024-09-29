@@ -117,3 +117,6 @@ public class Main {
    }
 }
 ```
+## Video Explaination
+https://github.com/user-attachments/assets/8da276f8-aaf5-4e98-b3f0-b882778e7db9
+
