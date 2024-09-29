@@ -73,14 +73,6 @@ public class OfferedCourse extends Course {
     private String location;
     private String time;
 
-   public void setNumber(String n) {
-      courseNumber = n;
-   }
-
-   public void setName(String n) {
-      courseName = n;
-   }
-
     public void setInstructor(String n) {
         instructorName = n;
     }
