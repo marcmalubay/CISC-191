@@ -27,8 +27,6 @@ public class Person {
       ageYears = numYears;
    }
 
-   // Other parts omitted
-
    public void printAll() {
       System.out.print("Name: " + lastName);
       System.out.print(", Age: "  + ageYears);
