@@ -83,22 +83,6 @@ public class Book {
 public class Encyclopedia extends Book {
     private String edition;
     private int pages;
-    
-    public void setTitle(String n) {
-        title = n;
-    }
-
-    public void setAuthor(String n) {
-      author = n;
-   }
-   
-    public void setPublisher(String n) {
-      publisher = n;
-   }
-    
-    public void setPublication(String n) {
-      publication = n;
-   }
 
     public void setEdition(String n) {
         edition = n;
