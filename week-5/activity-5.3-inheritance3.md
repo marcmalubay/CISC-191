@@ -129,3 +129,12 @@ public class Main {
 }
 ```
 
+## Flowchart Explaination
+![image](https://github.com/user-attachments/assets/ddad717b-61ad-44f6-8f4e-a021d82411ea)
+
+## Challenges
+Understanding what the override annotation was doing was a bit tricky for me. I understood that I could rewrite a method from the base class onto the subclass, but I did not understand what was happening specifically. I figured out that a method can only be overridden if it has the same name and arguments, which differed from overloading.
+
+## Video Explaination
+https://github.com/user-attachments/assets/b794ec96-0d3b-48c1-9ae8-c282449703a6
+
