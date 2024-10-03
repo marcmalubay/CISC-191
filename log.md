@@ -17,5 +17,12 @@ Please update the following log daily or weekly.
 | 9 - 22 | 30 |Leetcode 2-pointer problems (container most water)|
 | 9 - 23 | 30 |Leetcode 2-pointer problems (trapping water)|
 | 9 - 28 | 40 |Leetcode 2-pointer problems (trapping rain water)|
+| 9 - 29 | 20 |Leetcode sliding window problems (buy and sell)|
+| 10 - 1 | 30 |Leetcode sliding window problems (longest substring w/ repeating)|
+| 10 - 2 | 40 |Leetcode sliding window problems (longest substring w/o repeating)|
+
+
+
+
 
 
