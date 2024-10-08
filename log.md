@@ -20,6 +20,10 @@ Please update the following log daily or weekly.
 | 9 - 29 | 20 |Leetcode sliding window problems (buy and sell)|
 | 10 - 1 | 30 |Leetcode sliding window problems (longest substring w/o repeating)|
 | 10 - 2 | 40 |Leetcode sliding window problems (longest substring w/ repeating)|
+| 10 - 3 | 30 |Leetcode sliding window problems (min window)|
+| 10 - 4 | 30 |Leetcode stack problems (valid parentheses)|
+| 10 - 6 | 30 |Leetcode stack problems (min stack)|
+| 10 - 7 | 30 |Leetcode stack problems (reverse polish notation)|
 
 
 
