@@ -217,7 +217,7 @@ public class InventoryControl {
             System.out.println(e.getMessage());
         }
 ```
-## Final Code in Main (derived classes were not changed)
+# Final Code in Main (derived classes were not changed)
 ```java
 import java.util.Scanner;
 import java.util.InputMismatchException;
