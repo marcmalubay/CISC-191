@@ -1,6 +1,6 @@
-### QUESTION 1
+# QUESTION 1
 
-# Main
+### Main
 ```java
 import java.util.Scanner;
 
@@ -46,7 +46,7 @@ public class InventoryControl {
 }
 
 ```
-# Item class
+### Item class
 ```java
 public class Item {
     protected String name;
@@ -71,7 +71,7 @@ public class Item {
 
 ```
 
-# Painkillers Derived Class
+### Painkillers Derived Class
 ```java
 public class Painkillers extends Item{
     private String exp;
@@ -95,7 +95,7 @@ public class Painkillers extends Item{
 
 
 ```
-# Bandages Derived Class
+### Bandages Derived Class
 ```java
 public class Bandages extends Item{
     private String exp;
@@ -121,7 +121,7 @@ public class Bandages extends Item{
 }
 
 ```
-# Equipment Derived Class
+### Equipment Derived Class
 ```java
 public class Equipment extends Item{
     private double weight;
@@ -142,9 +142,9 @@ public class Equipment extends Item{
 
 
 ```
-## Question 2
+# QUESTION 2
 
-## Wrap a try and catch block around main
+### Wrap a try and catch block around main
 ```java
 import java.util.Scanner;
 import java.util.InputMismatchException;
@@ -197,9 +197,9 @@ public class InventoryControl {
 
 ```
 
-## Question 3
+# QUESTION 3
 
-## Create new method to check if input is valid
+# Create new method to check if input is valid
 ```java
     public static void validateInput(String input) throws Exception {
         if (!(input.equals("Painkillers") || input.equals("Bandages") || input.equals("Equipment"))) {
@@ -208,7 +208,7 @@ public class InventoryControl {
     }
 ```
 
-## Wrap input around try and catch for the new thrown exception
+# Wrap input around try and catch for the new thrown exception
 ```java
         String type = scnr.nextLine();
         try {
