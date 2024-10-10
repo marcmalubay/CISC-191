@@ -136,9 +136,10 @@ public class Equipment extends Item{
         System.out.println("Equipment: ");
         System.out.println("    Name: " + name);
         System.out.println("    Company: " + company);
-        System.out.println("    Weight: " + weight);
+        System.out.println("    Weight: " + weight + "lbs");
     }
 }
+
 
 ```
 ## Question 2
