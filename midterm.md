@@ -54,7 +54,7 @@ public class Item {
 
     public Item(String name, String company){
         this.name = name;
-        this.name = company;
+        this.company = company;
     }
 
     public void updateItems(String name, String company){
@@ -67,6 +67,7 @@ public class Item {
         System.out.println("    Company: " + company);
     }
 }
+
 
 ```
 
@@ -85,12 +86,13 @@ public class Painkillers extends Item{
     @Override
     public void displayItem(){
         System.out.println("Painkillers: ");
-        System.out.println("    Name:" + name);
-        System.out.println("    Company:" + company);
+        System.out.println("    Name: " + name);
+        System.out.println("    Company: " + company);
         System.out.println("    Expiration Date: " + exp);
         System.out.println("    Age Group: " + ag);
     }
 }
+
 
 ```
 # Bandages Derived Class
@@ -110,7 +112,7 @@ public class Bandages extends Item{
     @Override
     public void displayItem(){
         System.out.println("Bandages: ");
-        System.out.println("    Name:" + name);
+        System.out.println("    Name: " + name);
         System.out.println("    Company:" + company);
         System.out.println("    Expiration Date: " + exp);
         System.out.println("    Age Group: " + age_group);
@@ -132,11 +134,12 @@ public class Equipment extends Item{
     @Override
     public void displayItem(){
         System.out.println("Equipment: ");
-        System.out.println("    Name:" + name);
-        System.out.println("    Company:" + company);
+        System.out.println("    Name: " + name);
+        System.out.println("    Company: " + company);
         System.out.println("    Weight: " + weight);
     }
 }
+
 ```
 ## Question 2
 
@@ -212,4 +215,68 @@ public class InventoryControl {
         }catch(Exception e) {
             System.out.println(e.getMessage());
         }
+```
+## Final Code in Main (derived classes were not changed)
+```java
+import java.util.Scanner;
+import java.util.InputMismatchException;
+
+public class InventoryControl {
+    public static void validateInput(String input) throws Exception {
+        if (!(input.equals("Painkillers") || input.equals("Bandages") || input.equals("Equipment"))) {
+            throw new Exception("Invalid input. Please enter only 'Painkillers', 'Bandages', or 'Equipment'.");
+        }
+    }
+
+    public static void main(String[] args){
+        Scanner scnr = new Scanner(System.in);
+
+        System.out.print("Input Product Name: ");
+        String name = scnr.nextLine();
+        System.out.print("Input Product Company: ");
+        String company = scnr.nextLine();
+        Item item = new Item(name, company);
+
+        System.out.print("Please input which item you are placing into inventory (Painkillers, Bandages, Equipment): ");
+
+        String type = scnr.nextLine();
+        try {
+            validateInput(type);
+        }catch(Exception e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            if (type.equals("Painkillers")) {
+                System.out.print("Input Expiration Date: ");
+                String exp = scnr.nextLine();
+                System.out.print("Input Age Group: ");
+                String ag = scnr.nextLine();
+                Painkillers p = new Painkillers(name, company, exp, ag);
+                p.displayItem();
+
+
+            } else if (type.equals("Bandages")) {
+                System.out.print("Input Expiration Date: ");
+                String exp = scnr.nextLine();
+                System.out.print("Input Age Group: ");
+                String ag = scnr.nextLine();
+                System.out.print("Input Water Proof: ");
+                Boolean wp = scnr.nextBoolean();
+                Bandages b = new Bandages(name, company, exp, ag, wp);
+                b.displayItem();
+
+            } else if (type.equals("Equipment")) {
+                System.out.print("Input Weight: ");
+                double weight = scnr.nextDouble();
+                Equipment e = new Equipment(name, company, weight);
+                e.displayItem();
+            }
+        }
+        catch(InputMismatchException e){
+            System.out.println("Invalid Input");
+        }
+    }
+}
+
 ```
