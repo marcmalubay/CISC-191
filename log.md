@@ -24,6 +24,13 @@ Please update the following log daily or weekly.
 | 10 - 4 | 30 |Leetcode stack problems (valid parentheses)|
 | 10 - 6 | 30 |Leetcode stack problems (min stack)|
 | 10 - 7 | 30 |Leetcode stack problems (reverse polish notation)|
+| 10 - 8 | 30 |Leetcode stack problems (generate parentheses)|
+| 10 - 9 | 45 |Leetcode stack problems (generate parentheses)|
+| 10 - 11 | 30 |Leetcode stack problems (daily temp)|
+| 10 - 12 | 30 |Leetcode stack problems (car fleet)|
+| 10 - 13 | 30 |Leetcode stack problems (largest rectangle in histogram)|
+| 10 - 14 | 30 |Leetcode stack problems (largest rectangle in histogram)|
+| 10 - 15 | 30 |Leetcode binary search problems (binary search)|
 
 
 
