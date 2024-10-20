@@ -38,6 +38,40 @@ No, "rotostor" is not a palindrome.
 
 ## Code
 ```java
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scnr = new Scanner(System.in);
+        HashMap<Character, Integer> letter = new HashMap<>();
+
+        System.out.print("Please enter a word: ");
+        String word = scnr.nextLine();
+
+        for (int i = 0; i < word.length(); i++) {
+            char c = word.charAt(i);
+            letter.put(c, letter.getOrDefault(c, 0) + 1);
+        }
+        
+        System.out.println("Hashmap: " + letter);
+        
+        int oddCount = 0;
+        for (int count : letter.values()) {
+            if (count % 2 != 0) {
+                oddCount++;
+            }
+        }
+        
+        System.out.println("Odd Count: " + oddCount);
+        
+        if (oddCount <= 1) {
+            System.out.println("This is a palindrome");
+        } else {
+            System.out.println("This is not a palindrome");
+        }
+    }
+}
 
 ```
 
@@ -50,4 +84,6 @@ took a bit of thinking, since it is not so obvious when you look at a palindrome
 was not too complex after coming to this realization.
 
 ## Video Explaination
+https://github.com/user-attachments/assets/8ac036bd-821d-4dbb-a5cb-fc2fbd975783
+
 
