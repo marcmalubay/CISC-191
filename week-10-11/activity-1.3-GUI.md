@@ -103,4 +103,8 @@ type of input they want. Again, not too difficult of a concept to grasp and not 
 into my code. This is just another interesting way to get an input from the user, and it works very
 well for this problem.
 
+## Video
+https://github.com/user-attachments/assets/828baba4-dba6-41c8-a030-9581259164e8
+
+
 
