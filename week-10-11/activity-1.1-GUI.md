@@ -126,7 +126,6 @@ This only ended up making the entire GUI look messy and I decided this was not t
 on the x or y axis, so I stretched both the calculate button and yearly salary label to be 2 wide. This allowed them to fit a slot in the middle.
 
 ## Video
-
-Uploading activity-10.1-GUI.mp4…
+https://github.com/user-attachments/assets/adef9213-1ed9-4fc4-806a-b7824915dbd9
 
 
