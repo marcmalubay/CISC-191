@@ -128,3 +128,10 @@ Using the formatted text field was different from using a plain text field. Inst
 formatted text field allows us to take in only number values for the input, which is perfect for calculating distance.
 Not too difficult to implement, and the process of changing some calculations and numbers from the previous assignment
 was fairly simple to do.
+
+## Video
+
+
+https://github.com/user-attachments/assets/c6e057cf-8182-4a8b-87e0-79a5a42337be
+
+
