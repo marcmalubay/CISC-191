@@ -34,40 +34,35 @@ public class Main {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(600, 500);
 
-        // Set the layout manager for the frame
         frame.setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
 
-        // Set dark mode colors
-        Color backgroundColor = new Color(45, 45, 45);  // Dark background
-        Color textColor = new Color(220, 220, 220);     // Light text color
-        Color buttonColor = new Color(60, 63, 65);      // Darker button color
-        Color borderColor = new Color(100, 100, 100);   // Light gray border color
+        Color backgroundColor = new Color(45, 45, 45);
+        Color textColor = new Color(220, 220, 220);
+        Color buttonColor = new Color(60, 63, 65);
+        Color borderColor = new Color(100, 100, 100);
 
-        // Apply the background color to the frame
         frame.getContentPane().setBackground(backgroundColor);
 
-        // Center all elements both horizontally and vertically
-        gbc.insets = new Insets(4, 4, 4, 4);  // Padding around components
-        gbc.anchor = GridBagConstraints.CENTER;   // Center alignment
+        gbc.insets = new Insets(4, 4, 4, 4);
+        gbc.anchor = GridBagConstraints.CENTER;
 
         // Wage input
         JLabel wageLabel = new JLabel("Hourly Wage:");
-        wageLabel.setForeground(textColor); // Set text color for dark mode
+        wageLabel.setForeground(textColor);
         gbc.gridx = 0;
         gbc.gridy = 0;
         gbc.gridwidth = 1;
         frame.add(wageLabel, gbc);
 
         JTextField wageField = new JTextField(10);
-        wageField.setBackground(buttonColor); // Set field background for dark mode
-        wageField.setForeground(textColor); // Set field text color for dark mode
-        wageField.setBorder(new LineBorder(borderColor, 1)); // Set custom border color
+        wageField.setBackground(buttonColor);
+        wageField.setForeground(textColor);
+        wageField.setBorder(new LineBorder(borderColor, 1));
         gbc.gridx = 1;
         gbc.gridy = 0;
         frame.add(wageField, gbc);
 
-        // Hours input
         JLabel hoursLabel = new JLabel("Hours per Week:");
         hoursLabel.setForeground(textColor);
         gbc.gridx = 0;
@@ -77,32 +72,30 @@ public class Main {
         JTextField hoursField = new JTextField(10);
         hoursField.setBackground(buttonColor);
         hoursField.setForeground(textColor);
-        hoursField.setBorder(new LineBorder(borderColor, 1)); // Set custom border color
+        hoursField.setBorder(new LineBorder(borderColor, 1));
         gbc.gridx = 1;
         gbc.gridy = 1;
         frame.add(hoursField, gbc);
 
-        // Calculate button
+
         JButton calculateButton = new JButton("Calculate Salary");
         calculateButton.setBackground(buttonColor);
         calculateButton.setForeground(textColor);
-        calculateButton.setBorder(new LineBorder(borderColor, 1)); // Set custom border color
+        calculateButton.setBorder(new LineBorder(borderColor, 1));
 
         gbc.gridx = 0;
         gbc.gridy = 2;
-        gbc.gridwidth = 2;  // Span both columns
+        gbc.gridwidth = 2;
         frame.add(calculateButton, gbc);
 
-        // Result label
         JLabel resultLabel = new JLabel("Yearly Salary: $");
         resultLabel.setForeground(textColor);
         gbc.gridx = 0;
         gbc.gridy = 3;
-        gbc.gridwidth = 2;  // Span both columns
+        gbc.gridwidth = 2;
         gbc.anchor = GridBagConstraints.CENTER;
         frame.add(resultLabel, gbc);
 
-        // Action listener for the calculation
         calculateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -123,3 +116,13 @@ public class Main {
     }
 }
 ```
+## Flowchart Explaination 
+![image](https://github.com/user-attachments/assets/be9af415-3e2a-4d41-8b9b-5de65ca93ba8)
+
+## Challenges
+Centering all the pieces inside of the GridBagLayout was tricky for me. I wanted the calculate button and yearly salary label to be centered within the 
+grid, but I did not know how to fit them in a spot that is in the middle. I first tried making the grid 3x2, making the pieces fall in the middle slot. 
+This only ended up making the entire GUI look messy and I decided this was not the right decision. I then found out that you could stretch each piece
+on the x or y axis, so I stretched both the calculate button and yearly salary label to be 2 wide. This allowed them to fit a slot in the middle.
+
+## Video
