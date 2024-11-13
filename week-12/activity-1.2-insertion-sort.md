@@ -98,3 +98,7 @@ This assignment was simple to understand, but hard to program. The while loop in
 sense to me at first. I did not understand whow comparisons and swaps were doing. Comparisons are made to find the 
 correct position between two elements to find the correct positions, and swaps move those elements to those positons.
 Elements can be compared multiple times in one pass, while they can be swapped only one or none per pass.
+
+## Video Explanation
+https://github.com/user-attachments/assets/bbc4ef40-e869-4fbb-880e-53710626bf46
+
