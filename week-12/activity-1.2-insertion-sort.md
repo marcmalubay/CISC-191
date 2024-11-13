@@ -89,3 +89,12 @@ public class Main {
 }
 
 ```
+
+## Flowchart Explaination
+![image](https://github.com/user-attachments/assets/51e96e90-4e1c-49f7-90de-0ffdbf5f24e7)
+
+## Challenges
+This assignment was simple to understand, but hard to program. The while loop inside of the for loop didnt make
+sense to me at first. I did not understand whow comparisons and swaps were doing. Comparisons are made to find the 
+correct position between two elements to find the correct positions, and swaps move those elements to those positons.
+Elements can be compared multiple times in one pass, while they can be swapped only one or none per pass.
