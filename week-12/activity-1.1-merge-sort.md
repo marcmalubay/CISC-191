@@ -118,3 +118,16 @@ public class Main {
 }
 
 ```
+## Flowchart Explaination
+![image](https://github.com/user-attachments/assets/1d7f1785-6ac3-409d-9851-0499401ea054)
+
+## Challenges
+I often struggle with programming recursions. It can be easy to lose track of what the code is doing at a certain
+point and it is hard to debug. Recursions are a big part of merge sort, since the function must recursively divide
+and sort an array until each element is in its correct place. This means that this is a divide-and-conquer solution.
+As long as you can understand how each step of the recursion works, this problem becomes not so difficult to understand.
+
+## Video Explaination
+https://github.com/user-attachments/assets/54dd4d8a-68a2-4edb-8d28-c1eb2ee19bcc
+
+
