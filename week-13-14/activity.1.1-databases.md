@@ -79,14 +79,16 @@ public class Main {
 }
 
 ```
-## Flowchart Explaination
+## Flowchart Explanation
 ![image](https://github.com/user-attachments/assets/2107e264-d1bd-4f9f-9b5a-b9d444d814bf)
 
 ## Challenges
-Using prepared statments and utilizing metadata was difficult for me. I needed to find a way to find the name of the column and the max values, and I found that
-you are able to use metadata in order to do that. I do not understand why the resultset is unable to do this, but I was still able to access all the data I needed 
-to using metadata. Prepared statements also was difficult to implement. Using a prepared statement allows for the user to only input the correct input that I want.
+Using prepared statements and utilizing metadata was difficult for me. I needed to find a way to find the name of the column and the max values, and I found that
+you are able to use metadata in order to do that. I do not understand why the resultset cannot do this, but I could still access all the data I needed 
+to use metadata. Prepared statements also were difficult to implement. Using a prepared statement allows for the user only to input the correct input that I want.
 This allows for no SQL injections and all around safer code. I wanted to try this out for this assignment and it took a while to understand, but I got it done in the end.
 
-## Video Explaination
+## Video Explanation
+
+https://github.com/user-attachments/assets/28b64617-9f7d-4429-ac9d-b281d609dd43
 
